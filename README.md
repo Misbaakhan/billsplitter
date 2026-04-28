@@ -17,12 +17,20 @@ A production-grade REST API for splitting bills and tracking debts among friends
 - Debt simplification algorithm (minimizes transactions)
 - Redis caching for optimized performance
 
+## Live Deployment
+This API is deployed on AWS EC2 using Docker containers.
+
+Base URL:
+http://13.202.141.127:8080
+
+Example endpoint:
+POST /api/auth/register
+
 ## Running Locally with Docker
+
 ```bash
 docker-compose up --build
 ```
-App runs on http://localhost:9090
-
 ## API Endpoints
 | Method | Endpoint | Description |
 |--------|----------|-------------|
